@@ -1,4 +1,4 @@
-We are asked to investigate a yt to mp3 website. 
+On this day we learn about OPSEC (Operational Security). Operational security refers to the processes to prevent ourselves from malicious people who want to steal sensitive info from us. We are asked to investigate a yt to mp3 website. 
 + Firstly we are asked to use the site and download our files. We get two outputs. One named `song.mp3` the other `somg.mp3`. We examine what type of file both of these are:
   ```
   root@ip-10-10-189-48:~# file song.mp3
@@ -111,7 +111,7 @@ We are asked to investigate a yt to mp3 website.
 + Now we are asked to investigate further. We searched up the code on github, saw that a issue was raised by `M.M` i.e. `Mayor Malware` after that we look at the commit history of `CryptoWallet-Search` and thus we get all our answers.
 
 ### What I Learned
-+ One must always be on the lookout for malicious sites. AS once the damage is done there is no going back.
++ One must always be on the lookout for malicious sites. As once the damage is done there is no going back.
 + If we do use such sites for any reason, we must investigate the files that we downloaded.
 
   
