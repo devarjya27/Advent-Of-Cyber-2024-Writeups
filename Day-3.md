@@ -37,3 +37,7 @@ Firstly we add `message` and `clientip` columns as those are the info that is of
 
 ## What is the contents of the flag.txt?
 After typing in `cat flag.txt` we get the answer which is `THM{Gl1tch_Was_H3r3}`.
+
+## What I Learned
++ Became familiar with `ELK`.
++ Learned that exploiting web pages is easy when they dont check the type of the file we are uploading thus making them vulnerable to `RCE`.
