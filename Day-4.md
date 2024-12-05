@@ -27,3 +27,6 @@ Looking through the details we see that file used in this test is `Wareville_Ran
 Now we run the atomic by doing `Invoke-AtomicTest -AtomicTechnique T1059.003 --TestNumbers 4` and then we get a popup asking to save `Wareville_Ransomeware.txt` as a pdf. We save it and after opening the same we get our required flag. which is `THM{R2xpdGNoIGlzIG5vdCB0aGUgZW5lbXk=}`.
 
 (Decoding the flag which seems to be in base64 we get the output `Glitch is not the enemy`)
+
+## What I Learned
++ The Blue team at times simulate test cases from the Atomic Red Team Library to reduce the gaps in their detection and strengthen their defences and be prepared for the day when a real attacker tries to attack their systems.
