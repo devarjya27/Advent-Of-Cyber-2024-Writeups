@@ -1,4 +1,4 @@
-On this day we learn to do a XXE injection. XML or Extensible Markup Language is a common language between computers to store and transfer data. At times necessary sanitation is not in place which can allow attackers to extract sensitive info and cause undesirable behaviour. This can be caused by a XXE injection.  XXE is an attack that takes advantage of how XML parsers handle external entities.
+On this day we learn to do a `XXE injection`. `XML` or `Extensible Markup Language` is a common language between computers to store and transfer data. At times necessary sanitation is not in place which can allow attackers to extract sensitive info and cause undesirable behaviour. This can be caused by a `XXE injection`.  `XXE` is an attack that takes advantage of how `XM`L parsers handle external entities.
 
 + Firstly we open up `burp` on the VM and do the necessary adjustments as instructed on TryHackMe's site. Now navigating to `http://MACHINE_IP/product.php` if we add a product to our wishlist we can see the following AJAX call is made to `wishlist.php` with the following XML input.
 
