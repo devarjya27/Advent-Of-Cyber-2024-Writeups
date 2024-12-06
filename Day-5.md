@@ -37,5 +37,5 @@ On this day we learn to do a `XXE injection`. `XML` or `Extensible Markup Langua
 
 ## What I Learned
 + Often times when web applications are rushed through development they overlook how XML data is handled which can lead to XXE vulnerabilities. Thus an attacker can look at sensitive info through an XXE injection.
-+ Also learned to use `Burp` to execute a XXE injection.
++ Also learned to use `Burp` to execute a `XXE injection`.
 
