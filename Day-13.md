@@ -1,0 +1,7 @@
+Today we get to know about `websockets` and the difference between `http` and `websockets`. Additionaly we are asked to exploit the vulnerabilities that arise in a `websocket` connection.
+
+If we were to send a `http` request to a server to recieve certain data, once we recieve that data the connection would be closed. For instance if we want constant updatesfrom the server then a `http` connection is not really efficient as we would need to make new requests everytime we wanted an update. That's where `websocket` comes in, it is like an open door. Once we start a `websocket` connection it stays open allowing for efficient transfer of data. But this poses certain vulnerabilities. Hackers can manipulate the data or messages on a `websocket` connection and as everything is instantaneously happening in this connection there willl be no time for the user or the server to verify these data or messages.
+
+So opening the webpage, burp and burpsuite we intercept the initial request when we hit `track car` and we can see that `user id` `5` is being tracked and that its a `websocket` connection. We canmanipulate this message and change the `user id` to `8` and we get our first flag. 
+
+Now lets intercept the `message`. Once we send a message on the web app we can see it shows up as a `websocket` connection on `burpsuite` along with the message we typed and the `user id` lets change the user id from `5` to `8` and thus we get the second flag also.
